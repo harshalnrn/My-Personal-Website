@@ -1,0 +1,190 @@
+#container1 {
+
+/* background-image: url("myPhoto.jpg"),url("wallpaper.jpg") ;
+background-position: centre,left top ;
+background-repeat: no-repeat, no-repeat;
+height: 450px;
+padding: 50px 50px 50px 50px;
+background-size:500px 100%, cover;
+background-position: 800px,0px; */
+
+/* background-image:url("wallpaper10.jpg"); */
+height:100%;
+width:100%;
+/*background-size:cover;*/
+padding: 20px 20px 20px 20px;
+/* position: fixed;
+right: 0;
+/*bottom: 0;*/ 
+}
+
+
+#myVideo{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+}
+#container {
+
+/* background-image: url("myPhoto.jpg"),url("wallpaper.jpg") ;
+background-position: centre,left top ;
+background-repeat: no-repeat, no-repeat;
+height: 450px;
+padding: 50px 50px 50px 50px;
+background-size:500px 100%, cover;
+background-position: 800px,0px; */
+
+background-image:url("wallpaper20.jpg");
+height:100%;
+width:100%;
+background-size:cover;
+padding: 20px 20px 20px 20px;
+}
+
+
+#icon{
+color:white;
+margin-left:650px;
+}
+
+
+
+#image{
+background-image:url("myPhoto.jpg");
+background-position: left top;
+background-size:contain;
+height:100%;
+width:100%;
+margin: 10px;
+float: left;
+background-repeat: no-repeat;
+}
+
+
+
+
+#intro1{
+position: fixed;
+bottom: 0; 
+ margin-top:208px;
+margin-left:440px; 
+word-wrap: break-word; 
+height:430px;
+width:60%;
+/* float: right; */
+/* margin: 10px; */
+font-family: 'Corben';
+font-size: 45px; 
+font-weight: bold; 
+color: white
+}
+
+#button{
+font-size: 35px;
+display: inline-block;
+white-space: nowrap;
+font-weight: bold;
+font-style: italic;
+border-radius:16px;
+}
+
+#scrollTrackItem{
+height:100%;
+width:100%;
+}
+
+
+
+#container2{
+
+background-image: url("wallpaper1.jpg");
+height:200px;
+display: none
+}
+
+#header{
+
+height:50px;
+background-color: black;
+color: white;
+text-align:center;
+padding:10px;
+font-size: 20px;
+font-weight:bold;
+vertical-align: center;
+}
+
+#footer{
+
+height:50px;
+background-color: black
+}
+
+
+#logo{
+ border-radius: 50%;
+vertical-align: top;
+  width: 50px;
+  height: 50px;
+float:left;
+}
+
+
+#projectCards{
+background-color: green;
+color:white;
+font-weight:bold;
+border-style:solid;
+border-color:white;
+text-align: center;
+width:100%;
+height:100%;
+align: center;
+
+}
+
+
+
+.col-sm-3{
+height:100%;
+border-style:solid;
+}
+.align-items-start{
+height:100%;
+}
+
+.align-items-center{
+height:100%;
+}
+
+.align-items-end{
+height:100%;
+}
+
+/*
+.card-toggle-container1{
+display:none;
+}
+.card-toggle-container2{
+display:none;
+}
+.card-toggle-container3{
+display:none;
+}
+.card-toggle-container4{
+display:none;
+}
+.card-toggle-container5{
+display:none;
+}
+.card-toggle-container6{
+display:none;
+}
+*/
+
+
+
