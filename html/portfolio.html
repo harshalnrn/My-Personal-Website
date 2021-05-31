@@ -14,17 +14,63 @@
 </style>
 
 </head>
-
 <body>
-<header id="header">
+
+  <!-- note the implications of position: fixed. ex: explicit margin doesnt applied -->
+<!-- <header id="header" class="fixed-top">
 
 <a><img id="logo" href="#" alt="Avatar" src="../css/myPhoto.jpg"></a>
-SIGNIFICANT PROJECT EXPERIENCES
-</header>
-<br>
 
+</header> -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <a><img id="logo" href="#" alt="Avatar" src="../css/myPhoto.jpg"></a>
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="./home.html">About Me</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Project Experiences</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./github.html">Git-Hub projects</a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+
+<br>
+<!-- also make navigation bars (header, side) fixed, such that they are always there irrespective of any amount of scroll -->
+
+<!-- //manualy add bootstrap flex rows and columns as much required -->
+<!-- understand whats the priority order in case of collision while styling component with multipl classes -->
+
+  <div class="row ml-5 mt-5">
+
+
+    <!-- 1vh is equal to 1% of the viewport's height -->
+<!--    vertical menu column -->
+<!--   <div class=" col-sm-2 border border-dark " style= "height: 25vh;">
+ <ul class="nav flex-column">
+ 
+   <li class="nav-item"><a class="nav-link active" href="#">About Me</a></li>
+   <li class="nav-item"><a class="nav-link" href="#">IT service experiences</a></li>
+   <li class="nav-item"><a class="nav-link" href="./github.html">Github profile</a></li>
+ </ul>
+  </div> -->
+
+
+
+
+
+
+
+  <div class="col-sm-12">
+   <!-- project experience cards grid -->
 <div class="container">
- <div class="row">
+   <div class="row">
 
 
 
@@ -220,27 +266,9 @@ XL‐Release‐Deploy, Splunk Monitoring
    
   
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  </div>
+  </div>
 </div>
-
 <br>
 <br>
 <br>
